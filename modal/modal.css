@@ -1,0 +1,49 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.main__modal--overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.main__modal--wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 15rem;
+  border: 1px solid black;
+  border-radius: 0.75rem;
+  background: #ffffff;
+}
+
+.login__modal--overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.login__modal--wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid black;
+  border-radius: 0.75rem;
+  background: #ffffff;
+}
+
+.hide {
+  display: none !important;
+}
