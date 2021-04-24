@@ -60,7 +60,7 @@ const modalClassObj = (() => {
 const modalDomObj = (() => {
   const $mainModalButton = document.querySelector("#main-modal--button");
   const $loginModalButton = document.querySelector("#login-modal--button");
-  const $parentOfMainModal = document.querySelector("body");
+  const $parentOfMainModal = document.querySelector("#modal");
 
   return {
     getMainModalButtonElement: () => $mainModalButton,

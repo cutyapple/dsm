@@ -32,7 +32,7 @@ body {
   background: #ffffff;
 }
 
-.login__modal--overlay {
+.delete-check__modal--overlay {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,7 +42,7 @@ body {
   z-index: 2;
 }
 
-.login__modal--wrapper {
+.delete-check__modal--wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
