@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입</title>
+    <style>
+      div {
+        margin: 50px;
+        text-align: center;
+      }
+      form {
+        width: 409px;
+        margin: 150px 240px;
+        background-color: aliceblue;
+        margin: 10% auto;
+      }
+    </style>
+  </head>
+  <body>
+    <form onsubmit="event.preventDefault()" action="">
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="email" />
+        <span></span>
+      </div>
+      <div>
+        <label for="ID">ID</label>
+        <input type="text" id="id" placeholder="ID" />
+        <span></span>
+      </div>
+      <div>
+        <label for="number">password</label>
+        <input type="password" id="number" placeholder="password" />
+        <span></span>
+      </div>
+      <div>
+        <label for="ID">닉네임</label>
+        <input type="text" id="nickName" placeholder="Nickname" />
+        <span></span>
+      </div>
+      <div>
+        <label for="name">이름</label>
+        <input type="text" id="name" placeholder="name" />
+        <span></span>
+      </div>
+      <div>
+        <button id="button">버튼이다</button>
+      </div>
+    </form>
+  </body>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script type="text/javascript" src="SignUp.js"></script>
+</html>
